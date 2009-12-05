@@ -1,0 +1,107 @@
+\chapter{Tipografia (ou Porque Não Podemos Esquecer Seiscentos Anos de Tradição)}
+
+Agora você sabe usar o \LaTeX{}, está quase pronto para aprender os recursos avançados para linguistas. Porém, eu quero parar teus saltos de progresso enormes para falar sobre\ldots Detalhes. Existem alguns padrões que remontam à tradição da tipografia, mas falta informação sobre isso. O que farei aqui é comentar um pouco sobre questões que devem ser respeitadas quando editamos um texto.
+
+Essa é provavelmente uma seção que vai crescer muito neste documento, conforme eu for aprendendo mais. Tenho apenas um ano de experiência com a ferramenta.
+
+\section{Aspas}
+
+Nas máquinas de escrever, as aspas eram assim: "\. Isso servia para \emph{economizar espaço}. Com uma única aspa, neutra, você dava conta do recado.
+
+Porém\ldots Isso é errado. Nos computadores existem combinação que dão as aspas corretas.
+
+\begin{center}
+\begin{tabular}{c c c}
+\bf Modelo do Teclado\footnote{\textbf{ABNT2} é o teclado brasileiro, com cedilha. O teclado \textbf{Internacional} não possui a cedilha.} & \bf \emph{Input} & \bf \emph{Output} \\
+\hline
+\multirow{4}{*}{\bf Internacional}	& \texttt{altgr+(} & ‘ \\
+					& \texttt{altgr+)} & ’ \\
+					& \texttt{altgr+shift+\{ } & “ \\
+					& \texttt{altgr+shift+\} } & ” \\
+\hline
+\multirow{4}{*}{\bf ABNT2}		& \texttt{altgr+shift+v}  & ‘ \\
+					& \texttt{altgr+shift+b}  & ’ \\
+					& \texttt{altgr+v} & “ \\
+					& \texttt{altgr+b} & ” \\
+\end{tabular}
+\end{center}
+
+Usando as aspas erradas, nós teríamos "estes caracteres"\, ao invés ``destes caracteres'', que são muito mais bonitos. Conseguimos as aspas no \LaTeX{} dessa maneira:
+
+\begin{verbatim}
+``Ah, agora sim! Tudo certo!''
+\end{verbatim}
+
+Os caracteres são, respectivamente, dois acentos graves e dois agudos.
+
+\section{Reticências}
+
+As reticências são feitas usando o comando \verb+\ldots+. Isso acontece por um motivo muito simples: as reticências são, na verdade, um único caractere, com espaçamento diferente entre cada ponto do que conseguimos usando os clássicos ``três pontinhos''. Veja:
+
+\begin{center}
+\begin{tabular}{c c}
+\bf \emph{Input}	&	\bf \emph{Output}	\\
+\hline
+\verb+...+		& 	...			\\
+\verb+\ldots+		&	\ldots			\\
+\end{tabular}
+\end{center}
+
+\section{Hífens, meia-risca, travessões e menos}
+
+Aqui uma tabela para referência rápida: como usar hífens, meia-riscas, travessões e sinais de menos\footnote{Esta tabela foi adaptada a partir do original encontrado em \href{www.ctan.org/tex-archive/info/gentle/gentle.pdf}{\emph{A gentle introduction to \TeX}.}}.
+
+\begin{center}
+\begin{tabular}{ c c c c }
+\bf Tipo & \bf \emph{Input} & \bf \emph{Output} & \bf Exemplo \\ 
+\hline
+hífen & \verb+-+ & - & Eis meu guarda-chuva! \\
+meia-risca & \verb+--+ & -- & Leia as páginas 5--23. \\
+travessão & \verb+---+ & --- & Eu disse que era assim --- e não foi por mal! \\
+sinal de menos & \verb+$-$+ & $-$ & Quanto dá $5 - 3$? \\
+\end{tabular}
+\end{center}
+
+Isso deveria ser feito fora do \LaTeX{} também. Para maior informações, leia \href{http://pt.wikipedia.org/wiki/Travess\%C3\%A3o#Como_fazer}{esta página na Wikipédia}.
+
+\subsection{\ldots e ponto final!}
+
+O \LaTeX{} adiciona um espaço maior no fim de frases do que entre palavras. Isso deixa o texto mais legível. Mas existem duas ocasiões em que você deve ficar atento ao espaçamento. Veja os exemplos abaixo:
+
+\vspace{1em}
+
+\begin{center}
+\begin{minipage}[t]{6cm}
+\begin{verbatim}
+O Sr.~João lhe mandou esta 
+carta, Sra.~Fnord.
+
+Isso é a ABNT\@. É, poderia 
+ser melhor.
+\end{verbatim}
+\end{minipage}
+\begin{minipage}[t]{6cm}
+O Sr.~João lhe mandou esta carta, Sra.~Fnord.
+
+Isso é a ABNT\@. É, poderia ser melhor.
+\end{minipage}
+\end{center}
+
+\vspace{1em}
+
+A presença de um til `\~{}' faz com que não haja um espaçamento maior no fim das linhas. Já o \verb+\@+ antes do ponto final diz ao \LaTeX{} que este é um fim de frase. Ele não faz este espaço quando o ponto final vem logo depois de uma letra maiúscula, como em siglas. Portanto, colocamos o \verb+\@+ para que o espaçamento padrão de fim de frase seja respeitado.
+
+Para ter espaços sempre iguais, use o comando \verb+\frenchspacing+. 
+
+\section{Ele faz, mas você não vê}
+
+Existe uma quantidade muito grande de detalhes que o \LaTeX{} leva em consideração, nos livrando de um trabalho que seria, de outra maneira, enorme. A justificação é automática e feita usando \textbf{hifenização}, coisa que o \emph{Word} é incapaz de fazer.
+
+Eu poderia falar bastante sobre esse assunto, mas deixo dois links de pessoas que entendem sobre tipografia. Leiam para vislumbrar o grau de refinamento que tem o \LaTeX.
+
+\begin{itemize}
+	\item \href{http://nitens.org/taraborelli/latex}{The Beauty of \LaTeX} ({\sf http://nitens.org/taraborelli/latex}), onde Dario Taraborelli compara a qualidade da formatação do \LaTeX{} em relação ao \emph{Word}. Também dá exemplos do poder do processador, e tem uma grande quantidade de links relacionados;
+	\item \href{http://oestrem.com/thingstwice/2007/05/latex-vs-word-vs-writer/}{\LaTeX{} vs.~Word vs.~Writter} (\textsf{http://oestrem.com/thingstwice/2007/05/latex-vs-word-vs-writer/}), por Eyolf \O strem. Neste texto ele compara a qualidade entre o \LaTeX{}, o \emph{Microsoft Word} e o \emph{OpenOffice.org Writter}.
+\end{itemize}
+
+Você vai perceber que muitas ``editoras'' parecem nem sequer conhecer essas questões, o que é uma pena.

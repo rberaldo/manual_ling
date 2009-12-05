@@ -1,0 +1,73 @@
+\chapter{A Filosofia do \LaTeX{}}
+
+\section{Filosofia do código}
+
+Eu não vou falar sobre a história do \LaTeX{}. Isso você encontra naquele texto, \emph{Not too short}, que eu recomendei. Vou falar sobre o que eu aprendi \emph{na prática}, discutindo com usuários de \LaTeX{} e usando.
+
+Os documentos gerados usando essa linguagem tendem a ser muito mais organizados, lógicos, bem formatados e leves. O texto no \LaTeX{} é \textbf{sempre justificado}. Ao contrário de editores como o \emph{Microsoft Word}, que são visuais, o \LaTeX{} se foca no \emph{conteúdo}, sem a distração visual\footnote{Isso pode parecer meio intangível, falso, mas conversei com um professor da Universidade de Amsterdam, via e-mail, e ele em disse que sua tese de mestrado tinha quase o dobro do tamanho das teses que as pessoas geralmente fazem por lá. O motivo é que um arquivo muito grande em editores visuais vai ficando confuso, o programa fica lento, a organização é precária (por causa da filosofia destes editores) etc.}.
+
+Comecemos pela parte mais prática da filosofia dessa linguagem de marcação de texto: seu uso. Ela funciona de forma lógica. Um documento geralmente se organiza assim:
+
+{\small
+\begin{verbatim}
+\begin{document}
+
+\section{Primeira seção}
+
+Essa é a primeira seção de seu texto. Você pode criar 
+subseções facilmente, fazendo um
+
+\subsection{Primeira subseção}
+
+sem nem se preocupar com a numeração. 
+
+A numeração das páginas também é automática. O texto 
+é por padrão justificado, mas
+você pode facilmente centralizá-lo assim:
+
+\begin{center}
+E este será um texto centralizado.
+\end{center}
+
+\section{Segunda seção}
+
+Como você pode perceber, tudo é muito lógico 
+e \emph{simples}. A palavra ``simples'', na frase 
+anterior, sairá enfatizada, ou seja, em itálico. 
+\textbf{Já todo esta frase será em negrito.}
+
+Fazer notas de rodapé é muito fácil. Basta usar 
+o comando \footnote{Conteúdo da nota.} e 
+pronto! Sem se preocupar com numerações nem nada.
+
+\end{document}
+\end{verbatim}
+}
+
+Talvez agora dizer que o \LaTeX{} se foca no conteúdo faça mais sentido. Se você precisa adicionar mais uma seção, usamos o comando \verb+\section+. Para o sumário, basta um \verb+\tableofcontents+, que usa todas as seções e subseções ou capítulos e subcapítulos e cria um índice automaticamente. As numerações de seção, as formatações e quebras de página, etc., tudo é feito automaticamente.
+
+A segunda coisa que o \LaTeX{} resolve é a famosa \textbf{incompatibilidade}. Depois que você escreve seu arquivo \texttt{.tex}, você deve passá-lo por um processo conhecido como \textbf{compilação}. Isso significa que um programa pegará o código e o transformará naquilo que você mandou. O arquivo final é geralmente um eleganteelegante  \href{http://pt.wikipedia.org/wiki/Portable_Document_Format}{\texttt{PDF}}. Você pode abrí-lo em qualquer computador que tenha um leitor de \texttt{PDF} --- e praticamente todos têm.
+
+Isso \emph{acaba} com o velho problema de incompatibilidade, que é quando você faz o arquivo numa versão de um programa, e tenta abri-lo numa mais velha ou mais nova, e perde toda sua formatação, ou o programa recusa-se a lê-lo etc. O \LaTeX{} também pode gerar apresentações de slide, mas digo isso a título de curiosidade. Se você tem vontade de aprender, sugiro que leia sobre o \textbf{Beamer} ou o \textbf{Prosper}, dois pacotes para se criar apresentações.
+
+Vamos, agora, subir um pouco no degrau da filosofia do \LaTeX{}.
+
+\section{Filosofia das possibilidades}
+
+Qual é o suporte que as ferramentas que você usa atualmente têm ao alfabeto fonético, árvores como as usadas nos esquemas do gerativismo, caracteres e símbolos exóticos, alta qualidade tipográfica, diagramas de vogais, bibliografias, dissertações, referências cruzadas, AVMs (\emph{attribute-value matrices})?
+
+O \LaTeX{} suporta. Nele temos ferramentas muito boas que inexistem em outros editores. Isso centraliza a edição, torna mais fácil o controle dos arquivos que você cria, evita o uso de imagens (criar um diagrama de vogais à mão, por exemplo, e depois colocá-lo no documento em forma de imagem), que são e tornam o documento pesado. Cada uma dessas ferramentas têm uma sintaxe própria, e seguem o padrão da sintaxe do \LaTeX. Uma vez familiarizado com ela, o uso se torna natural, orgânico.
+
+Possuir tantos recursos é um ponto muito importante sobre o \LaTeX; a qualidade deles é atestada: são mais de vinte anos de vida. Vinte anos de melhoria.
+
+\section{Filosofia \emph{open source}}
+
+Esse é o ponto mais interessante. Em primeiro lugar, o \LaTeX{} é \emph{aberto}. As primeiras implicações que isso causa é que ele é grátis --- não estou tentando vender nada para você. Mas há implicações mais importantes que o fato dele ser gratuito.
+
+O modelo \emph{open source}\footnote{Em inglês, softwares desenvolvidos seguindo este modelo são chamados de \emph{free software}. Quando traduzimos para o português, fica ``software livre'', porque o \emph{free} não é de ``grátis''; como diz uma ladainha famosa, \emph{free as in freedom.}}, ou seja, \emph{código livre}, garante a distribuição de um programa e seu código. Quem se interessar em modificar o programa, entender como ele funciona, ou melhorá-lo, está livre e é encorajado a fazê-lo. Como o código do programa passa por muitas mãos, no caso do \emph{open source}, frequentemente notam-se erros ou melhorias possíveis. Se você encontrou algum erro, existem formulários intuitivos para se preencher e reportar o erro, que será avaliado por toda a comunidade. Este modelo de escrita de programas tem se provado o mais eficiente já concebido. Por isso mesmo o \LaTeX{} tem tanto suporte a coisas interessantes para a Linguística (entre outras áreas), enquanto outros softwares não. Além disso, o \LaTeX{} é muito mais estável que qualquer outro processador de texto que você conhece, e evolui rapidamente.
+
+Quando você escreve um texto no \emph{Word} ou \emph{OpenOffice.org Writter}, por exemplo, o que acontece é que cada formatação que você faz é, na verdade, um código. A diferença entre eles e o \LaTeX{} é que escodem esse código e o processam no momento em que você está vendo. Por isso documentos muito grandes são simplesmente inviáveis: o programa tem de processar muita coisa ``ao vivo'', e é muito fácil ocorrerem problemas devidos a tanto processamento.
+
+O \LaTeX{} possui versões para Windows, para Linux, para Mac. Você pode editar seu texto onde estiver, compilá-lo onde estiver, e visualizá-lo onde estiver. Você não é obrigado a usar este ou aquele sistema operacional, nem este ou aquele programa. Existem aplicativos gratuitos muito bons para se trabalhar com \LaTeX{}, assim como existem os pagos.
+
+Algo muito suspeito que costumam fazer as empresas de software são programas pesados, que exigem muito do computador (e, é claro, do bolso do usuário, que tem de fazer upgrades que poderiam ser tornados desnecessários por uma programação mais inteligente e menos exigente). Por outro lado, o software livre costuma ser leve e otimizado. Naturalmente alguns aplicativos são pesados por natureza, mas não há sentido em precisar de um computador potente para atividades triviais como editar um texto ou navegar na Internet. 
