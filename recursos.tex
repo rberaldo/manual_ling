@@ -24,9 +24,15 @@ Ou algo mais sofisticado, como:
 
 O pacote \texttt{TIPA} resolve muitos problemas. O primeiro deles é que é muito lento escrever símbolos fonéticos no \emph{Word}, por exemplo: você tem que selecionar os símbolos, um por um, dentro de uma grande tabela.
 
-Já com o \texttt{TIPA}, escrevemos seguindo uma convenção. O \emph{output} segue esta convenção, que é descrita numa tabela muito parecida com a tabela clássica do IPA, que você pode ver \href{http://www.ling.ohio-state.edu/events/lcc/tutorials/tipachart/tipachart.pdf}{neste link} (\textsf{http://www.ling.ohio-state.edu/events/lcc/tutorials/tipachart/tipachart.pdf}).
+Já com o \texttt{TIPA}, escrevemos seguindo uma convenção. O \emph{output} segue esta convenção, que é descrita numa tabela muito parecida com a tabela clássica do IPA, que você pode ver \href{http://www.ling.ohio-state.edu/events/lcc/tutorials/tipachart/tipachart.pdf}{neste link} (\textsf{http://www.ling.ohio-state.edu/events/lcc/tutorials/t\-ipa\-chart/t\-ipa\-chart.pdf}).
 
-Um conjunto de letras \emph{sans-serif} vem junto com o \texttt{TIPA}, acessíveis via \verb+\textsf{\tex-tipa{ }}+. Podemos usar, ainda, o ambiente 
+Uma fonte \emph{sans-serif} vem junto com o \texttt{TIPA}, acessíveis via 
+
+\begin{center}
+\verb+\textsf{\textipa{ }}+ 
+\end{center}
+
+Podemos usar, ainda, o ambiente 
 
 \begin{center}
 \begin{minipage}[h]{1cm}
@@ -43,7 +49,7 @@ para escrever longos trechos de transcrição fonética.
 O pacote \texttt{TIPA} inclui o pacote \texttt{vowel}, que permite desenhar a \textbf{tabela de vogais}:
 
 \begin{center}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.45\textwidth}
 \begin{verbatim}
 \begin{vowel}
 	\putcvowel{i}{1}
@@ -53,7 +59,7 @@ O pacote \texttt{TIPA} inclui o pacote \texttt{vowel}, que permite desenhar a \t
 \end{vowel}
 \end{verbatim}
 \end{minipage}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.4\textwidth}
 \begin{vowel}
         \putcvowel{i}{1}
 	\putcvowel{e}{2}
@@ -65,7 +71,7 @@ O pacote \texttt{TIPA} inclui o pacote \texttt{vowel}, que permite desenhar a \t
 
 (A tabela de vogais acima está incompleta.) Para usar o ambiente \texttt{vowel}, você deve incluir, no preâmbulo, a linha \verb+\usepackage{vowel}+.
 
-O manual do pacote \texttt{TIPA} está no seguinte endereço: \href{http://uit.no/getfile.php?PageId=874\&FileId=165}{\textsf{http://uit.no/getfile.php?PageId=874\&FileId=165}}
+O manual do pacote \texttt{TIPA} está no seguinte endereço: \href{http://www.l.u-tokyo.ac.jp/~fkr/tipa/tipaman.pdf}{\textsf{http://www.l.u-tokyo.ac.jp/\~{}f\-k\-r/t\-ipa/t\-ipa\-man.pdf}}
 
 Slides de um curso muito completo disponíveis no site do \emph{Center for Advanced Study in Theoretical Linguistics}, da \emph{Universitetet i Troms\o} podem ser vistos no link \href{http://uit.no/getfile.php?PageId=874\&FileId=299}{\textsf{http://uit.no/getfile.php?PageId=874\&FileId=299}} 
 
@@ -74,7 +80,7 @@ Slides de um curso muito completo disponíveis no site do \emph{Center for Advan
 As ávores são usadas na Linguística, Lógica, Matemática, Ciências da Computação e outros campos. Existem softwares específicos para se criar árvores, mas eu não sei como eles funcionam. Achei muito mais simples, porém, usar o pacote \texttt{qtree}. Para usá-lo, você deve digitar, no preâmbulo, \verb+\usepackage{qtree}+. Vejamos como funciona uma árvore em \LaTeX:
 
 \begin{center}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.45\textwidth}
 \begin{verbatim}
 \Tree [.S
 	[.NP
@@ -91,7 +97,7 @@ As ávores são usadas na Linguística, Lógica, Matemática, Ciências da Compu
 ]
 \end{verbatim}
 \end{minipage}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.4\textwidth}
 \Tree [.S
 	[.NP
 		[.AR Aquele ]
@@ -111,7 +117,7 @@ As ávores são usadas na Linguística, Lógica, Matemática, Ciências da Compu
 Para compor uma árvore, basta um pouco de lógica. Ela sempre se inicia com o comando \verb+\Tree+. A hierarquia é definida por colchetes ``[''. Veja uma árvore mais simples:
 
 \begin{center}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.45\textwidth}
 \begin{verbatim}
 \Tree [.A
 	[.B
@@ -125,7 +131,7 @@ Para compor uma árvore, basta um pouco de lógica. Ela sempre se inicia com o c
 ]
 \end{verbatim}
 \end{minipage}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.4\textwidth}
 \Tree [.A
 	[.B
 		[.C
@@ -139,14 +145,14 @@ Para compor uma árvore, basta um pouco de lógica. Ela sempre se inicia com o c
 \end{minipage}
 \end{center}
 
-Para um passo-a-passo sobre como fazer árvores, recomendo novamente os slides do \emph{Center for Advanced Study in Theoretical Linguistics}: \href{http://uit.no/getfile.php?PageId=874\&FileId=299}{\textsf{http://uit.no/getfile.php?PageId=874\&FileId=299}}, a partir da página 18.
+Para um passo-a-passo sobre como fazer árvores, recomendo novamente os slides do \caps{castl}: \href{http://uit.no/getfile.php?PageId=874\&FileId=299}{\textsf{http://uit.no/getfile.php?PageId=874\&FileId=299}}, a partir da página 18.
 
 \section{\emph{Attribute-value matrices}}
 
-Usadas na gramática gerativista, as AVMs são outro desafio para a representação. O \LaTeX{} supre isso muito bem. Basta chamar o pacote AVM no preâmbulo do documento, usando o comando \verb+\usepackage{avm}+ e desenhá-la como abaixo:
+Usadas na gramática gerativista, as \caps{avm}s são outro desafio para a representação. O \LaTeX{} supre isso muito bem. Basta chamar o pacote \texttt{avm} no preâmbulo do documento, usando o comando \verb+\usepackage{avm}+ e desenhá-la como abaixo:
 
 \begin{center}
-\begin{minipage}[h]{8cm}
+\begin{minipage}[h]{.64\textwidth}
 \begin{verbatim}
 \begin{avm}
 \[
@@ -159,7 +165,7 @@ agreement & \[ number \emph{singular} \\
 \end{avm}
 \end{verbatim}
 \end{minipage}
-\begin{minipage}[h]{6cm}
+\begin{minipage}[h]{.1\textwidth}
 \begin{avm}
 \[
 category & \emph{noun phrase} \\
