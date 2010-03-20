@@ -1,12 +1,17 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
-\glsgroupheading{G}\relax \glsresetentrylist %
-\glossaryentryfield{gnulinux}{\glsnamefont{GNU/Linux}}{sistema operacional \emph {open source}, baseado no kernel Linux e aplicativos abertos do projeto GNU}{\relax }{\glossaryentrynumbers{\relax 
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossaryentryfield{gnulinux}{\glsnamefont{\textsc {gnu}/Linux}}{sistema operacional \emph {open source}, baseado no kernel Linux e aplicativos abertos do projeto \textsc {gnu}}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{3}}}%
+\glossaryentryfield{irc}{\glsnamefont{\textsc {irc}}}{protocolo de comunicação bastante usado na Internet}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter{page}\glsnumberformat{3}}}\glsgroupskip
-\glsgroupheading{I}\relax \glsresetentrylist %
-\glossaryentryfield{irc}{\glsnamefont{IRC}}{protocolo de comunicação bastante usado na Internet}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{4}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{compilacao}{\glsnamefont{compilação}}{compilador é o programa de computador que interpreta um código fonte e cria a versão final, em uma linguagem que o computador entenda. ``Compilação'' é o processo de criar essa versão final usando-se o programa. No mundo do \LaTeX , porém, o processo de compilação significa transformar do código que você digita em \texttt {PDF} ou qualquer outro formato desejado}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glossaryentryfield{hifenizacao}{\glsnamefont{hifenização}}{é o processo de colocação de hífens, de modo a justificar o texto tentando manter uma quantidade razoável, nem muito grande nem muito pequena, de caracteres na linha. Pressupõe um dicionário completo na memória do computador, o que dá trabalho e custa caro. As distribuições de \LaTeX , porém, trazem dicionários de hífen sem nenhum custo. Isso garante que a qualidade tipográfica do documento será muito superior àquela obtida por meio do \emph {Word}, por exemplo, que somente adiciona ou remove espaços entre os caracteres para conseguir justificar o texto}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{10}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossaryentryfield{linguagem_marcacao}{\glsnamefont{linguagem de marcação}}{é um conjunto de códigos aplicados a um texto ou a dados, com o fim de adicionar informações particulares sobre esse texto ou dado, ou sobre trechos específicos, segundo a \href {http://pt.wikipedia.org/wiki/Linguagem_de_marcação}{Wikipédia}}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter{page}\glsnumberformat{3}}}%
+		\setentrycounter{page}\glsnumberformat{2}}}%
 \end{theglossary}\glossarypostamble
