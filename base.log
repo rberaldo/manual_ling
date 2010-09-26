@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Arch Linux) (format=pdflatex 2010.1.18)  2 JUN 2010 22:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Arch Linux) (format=pdflatex 2010.7.30)  31 AUG 2010 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -361,58 +361,53 @@ Package: vowel 2002/08/08 VOWEL Package version 1.1
 \@y@=\count97
 \@z@=\count98
 )
-(/usr/share/texmf-dist/tex/latex/avm/avm.sty
-\avmdimen=\dimen114
-\avmboxone=\box26
-\avmboxthree=\box27
-)
+
+! LaTeX Error: File `avm.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+./base.tex:7: Interruption.
+<to be read again> 
+                   }
+l.7 ^^M
+       
+? 
 (/usr/share/texmf-dist/tex/latex/qtree/qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
-(/usr/share/texmf-dist/tex/latex/pict2e/pict2e.sty
-Package: pict2e 2009/08/05 v0.2x Improved picture commands (HjG,RN,JT)
 
-(/usr/share/texmf-dist/tex/latex/pict2e/pict2e.cfg
-File: pict2e.cfg 2009/08/05 v0.1s pict2e configuration for teTeX/TeXLive
-)
-Package pict2e Info: Driver file: pdftex.def on input line 101.
-Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 103.
+! LaTeX Error: File `pict2e.sty' not found.
 
-(/usr/share/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
-File: p2e-pdftex.def 2009/08/05 v0.1s Driver-dependant file (RN,HjG,JT)
-)
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-\pIIe@GRAPH=\toks17
-\@arclen=\dimen115
-\@arcrad=\dimen116
-\@tempdimd=\dimen117
-)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
 \c@treecount=\count99
 \c@branchcount=\count100
-\parentbox=\box28
-\treebox=\box29
-\treeboxone=\box30
-\treeboxtwo=\box31
-\treeboxthree=\box32
-\treeboxfour=\box33
-\treeboxfive=\box34
-\treeboxsix=\box35
-\treeboxseven=\box36
-\treeboxeight=\box37
-\treeboxnine=\box38
-\treeboxten=\box39
-\treeboxeleven=\box40
-\treeboxtwelve=\box41
-\treeboxthirteen=\box42
-\treeboxfourteen=\box43
-\treeboxfifteen=\box44
-\treeboxsixteen=\box45
-\treeboxseventeen=\box46
-\treeboxeighteen=\box47
-\treeboxnineteen=\box48
-\treeboxtwenty=\box49
+\parentbox=\box26
+\treebox=\box27
+\treeboxone=\box28
+\treeboxtwo=\box29
+\treeboxthree=\box30
+\treeboxfour=\box31
+\treeboxfive=\box32
+\treeboxsix=\box33
+\treeboxseven=\box34
+\treeboxeight=\box35
+\treeboxnine=\box36
+\treeboxten=\box37
+\treeboxeleven=\box38
+\treeboxtwelve=\box39
+\treeboxthirteen=\box40
+\treeboxfourteen=\box41
+\treeboxfifteen=\box42
+\treeboxsixteen=\box43
+\treeboxseventeen=\box44
+\treeboxeighteen=\box45
+\treeboxnineteen=\box46
+\treeboxtwenty=\box47
 \treeoffsetone=\skip46
 \treeoffsettwo=\skip47
 \treeoffsetthree=\skip48
@@ -487,26 +482,28 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 \branchwidth=\skip117
 \parentwidth=\skip118
 \treewidth=\skip119
-\qta=\toks18
-\qtb=\toks19
+\qta=\toks17
+\qtb=\toks18
 \nbranches=\count101
 \qroofx=\count102
 \qroofy=\count103
-\@qrscratchbox=\box50
-)
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+\@qrscratchbox=\box48
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
 (/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen118
-\Gin@req@width=\dimen119
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2010/01/16 v6.80c Hypertext links for LaTeX
@@ -560,7 +557,7 @@ Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
 (/usr/share/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2009/12/12 xcolor patch
 ))
-\@linkdim=\dimen120
+\@linkdim=\dimen116
 \Hy@linkcounter=\count104
 \Hy@pagecounter=\count105
 
@@ -599,9 +596,9 @@ Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
 ))
 \Fld@menulength=\count106
-\Field@Width=\dimen121
-\Fld@charsize=\dimen122
-\Field@toks=\toks20
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
+\Field@toks=\toks19
 Package hyperref Info: Hyper figures OFF on input line 4702.
 Package hyperref Info: Link nesting OFF on input line 4707.
 Package hyperref Info: Hyper index ON on input line 4710.
@@ -640,30 +637,35 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 3
 \Hy@SectionHShift=\skip120
 )
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen123
-)
-(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+/usr/share/texmf-dist/tex/latex/multirow/multirow.sty:2: Interruption.
+l.2 
+    %% multirow.sty  V1.6 version (5-May-2004)
+? 
+\bigstrutjot=\dimen119
+) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count112
-\mult@box=\box51
-\multicol@leftmargin=\dimen124
+\mult@box=\box49
+\multicol@leftmargin=\dimen120
 \c@unbalance=\count113
 \c@collectmore=\count114
 \doublecol@number=\count115
 \multicoltolerance=\count116
 \multicolpretolerance=\count117
-\full@width=\dimen125
-\page@free=\dimen126
-\premulticols=\dimen127
-\postmulticols=\dimen128
+\full@width=\dimen121
+\page@free=\dimen122
+\premulticols=\dimen123
+\postmulticols=\dimen124
 \multicolsep=\skip121
 \multicolbaselineskip=\skip122
-\partial@page=\box52
-\last@line=\box53
-\mult@rightbox=\box54
-\mult@grightbox=\box55
-\mult@gfirstbox=\box56
-\mult@firstbox=\box57
+\partial@page=\box50
+\last@line=\box51
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
 \@tempa=\box58
 \@tempa=\box59
 \@tempa=\box60
@@ -679,15 +681,13 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \@tempa=\box70
 \@tempa=\box71
 \@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
 \c@columnbadness=\count118
 \c@finalcolumnbadness=\count119
-\last@try=\dimen129
-\multicolovershoot=\dimen130
-\multicolundershoot=\dimen131
-\mult@nat@firstbox=\box75
-\colbreak@box=\box76
+\last@try=\dimen125
+\multicolovershoot=\dimen126
+\multicolundershoot=\dimen127
+\mult@nat@firstbox=\box73
+\colbreak@box=\box74
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2009/11/01 v2.04 (NLCT)
@@ -696,36 +696,36 @@ Package: glossaries 2009/11/01 v2.04 (NLCT)
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 \XKV@depth=\count120
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 Package: mfirstuc 2009/11/03 v1.04 (NLCT)
-\@glsmfirst=\toks23
-\@glsmrest=\toks24
+\@glsmfirst=\toks22
+\@glsmrest=\toks23
 )
 (/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks25
-\ex@=\dimen132
+\@emptytoks=\toks24
+\ex@=\dimen128
 )
 (/usr/share/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2007/03/11 ver 1.00
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-language-mappings.tex))
 \gls@level=\count121
-\@gls@tmpb=\toks26
+\@gls@tmpb=\toks25
 \gls@tmplen=\skip123
 \istfile=\write3
-\glskeylisttok=\toks27
-\glslabeltok=\toks28
-\glsshorttok=\toks29
-\glslongtok=\toks30
+\glskeylisttok=\toks26
+\glslabeltok=\toks27
+\glsshorttok=\toks28
+\glslongtok=\toks29
 
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
@@ -744,16 +744,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip127
 \LTpost=\skip128
 \LTchunksize=\count122
-\LTcapwidth=\dimen133
-\LT@head=\box77
-\LT@firsthead=\box78
-\LT@foot=\box79
-\LT@lastfoot=\box80
+\LTcapwidth=\dimen129
+\LT@head=\box75
+\LT@firsthead=\box76
+\LT@foot=\box77
+\LT@lastfoot=\box78
 \LT@cols=\count123
 \LT@rows=\count124
 \c@LT@tables=\count125
 \c@LT@chunks=\count126
-\LT@p@ftn=\toks31
+\LT@p@ftn=\toks30
 )
 \glsdescwidth=\skip129
 \glspagelistwidth=\skip130
@@ -764,21 +764,21 @@ Package: glossary-super 2009/05/30 v2.01 (NLCT)
 (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count127
-\ST@wd=\dimen134
+\ST@wd=\dimen130
 \ST@rightskip=\skip131
 \ST@leftskip=\skip132
 \ST@parfillskip=\skip133
-\ST@pageleft=\dimen135
-\ST@headht=\dimen136
-\ST@tailht=\dimen137
-\ST@pagesofar=\dimen138
-\ST@pboxht=\dimen139
-\ST@lineht=\dimen140
-\ST@stretchht=\dimen141
-\ST@prevht=\dimen142
-\ST@toadd=\dimen143
-\ST@dimen=\dimen144
-\ST@pbox=\box81
+\ST@pageleft=\dimen131
+\ST@headht=\dimen132
+\ST@tailht=\dimen133
+\ST@pagesofar=\dimen134
+\ST@pboxht=\dimen135
+\ST@lineht=\dimen136
+\ST@stretchht=\dimen137
+\ST@prevht=\dimen138
+\ST@toadd=\dimen139
+\ST@dimen=\dimen140
+\ST@pbox=\box79
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2009/01/14 v1.01 (NLCT)
@@ -786,15 +786,15 @@ Package: glossary-tree 2009/01/14 v1.01 (NLCT)
 ))
 (/usr/share/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks32
-\SOUL@lasttoken=\toks33
-\SOUL@cmds=\toks34
-\SOUL@buffer=\toks35
-\SOUL@token=\toks36
+\SOUL@word=\toks31
+\SOUL@lasttoken=\toks32
+\SOUL@cmds=\toks33
+\SOUL@buffer=\toks34
+\SOUL@token=\toks35
 \SOUL@spaceskip=\skip135
-\SOUL@ttwidth=\dimen145
-\SOUL@uldp=\dimen146
-\SOUL@ulht=\dimen147
+\SOUL@ttwidth=\dimen141
+\SOUL@uldp=\dimen142
+\SOUL@ulht=\dimen143
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
@@ -821,9 +821,15 @@ Package glossaries Info: Writing glossary file base.glo on input line 8.
 \@input{glossario.aux}
 \openout2 = `glossario.aux'.
 
-(./glossario.tex) (./base.aux (./introducao.aux) (./filosofia.aux)
-(./tipografia.aux) (./recursos.aux) (./terminando.aux) (./links.aux)
-(./licenca.aux))
+(./glossario.tex
+./glossario.tex:15: Interruption.
+\@expandtwoargs ...\edef \reserved@a {\noexpand #1
+                                                  {#2}{#3}}\reserved@a 
+l.15 }
+      
+? 
+) (./base.aux (./introducao.aux) (./filosofia.aux) (./tipografia.aux)
+(./recursos.aux) (./terminando.aux) (./links.aux) (./licenca.aux))
 \openout1 = `base.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -840,7 +846,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 21.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 21.
- (/usr/share/texmf-dist/tex/latex/tipa/t3cmr.fd
+
+(/usr/share/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -857,15 +864,15 @@ LaTeX Font Info:    Font shape `T1/fxlj/m/n' will be
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
-\scratchdimen=\dimen148
-\scratchbox=\box82
+\scratchdimen=\dimen144
+\scratchbox=\box80
 \nofMPsegments=\count129
 \nofMParguments=\count130
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks36
 \MPscratchCnt=\count131
-\MPscratchDim=\dimen149
+\MPscratchDim=\dimen145
 \MPnumerator=\count132
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks37
 )
 Package hyperref Info: Link coloring OFF on input line 21.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -886,7 +893,7 @@ LaTeX Info: Redefining \pageref on input line 21.
 \@outlinefile=\write5
 \openout5 = `base.out'.
 
-\AtBeginShipoutBox=\box83
+\AtBeginShipoutBox=\box81
 
 (/usr/share/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-English.
 dict
@@ -926,11 +933,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./base.tex:23: Interruption.
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+l.23 \tableofcontents
+                     
+? 
 LaTeX Font Info:    Font shape `T1/fxlj/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/fxlj/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/fxlj/b/n' will be
 (Font)              scaled to size 24.88pt on input line 23.
- (./base.toc
+(./base.toc
 LaTeX Font Info:    Font shape `T1/fxlj/bx/n' in size <10> not available
 (Font)              Font shape `T1/fxlj/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/fxlj/b/n' will be
@@ -1036,11 +1049,17 @@ LaTeX Font Info:    Font shape `T1/fxlj/b/it' will be
 (Font)              scaled to size 14.4pt on input line 63.
 LaTeX Font Info:    Font shape `T1/fxlj/m/it' will be
 (Font)              scaled to size 8.0pt on input line 67.
- [6]) [7]
+ [6
+./filosofia.tex:72: Interruption.
+<write> 
+        \protect \BOOKMARK [1][-]{section.2.3}{Filosofia open source}{chapte...
+l.72 
+     
+? 
+]) [7]
 \openout2 = `tipografia.aux'.
 
-
-(./tipografia.tex
+ (./tipografia.tex
 Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `T1/fxlj/bx/n' in size <8> not available
 (Font)              Font shape `T1/fxlj/b/n' tried instead on input line 15.
@@ -1095,111 +1114,95 @@ Overfull \hbox (44.4019pt too wide) in paragraph at lines 101--114
  []
 
 [12]
-Overfull \hbox (103.60794pt too wide) in paragraph at lines 177--178
-[][] 
- []
 
-[13]) [14]
-\openout2 = `terminando.aux'.
+./recursos.tex:169: LaTeX Error: Environment avm undefined.
 
- (./terminando.tex
-Cap\'{\i }tulo 5.
-) [15
-
-
-
-]
-\openout2 = `links.aux'.
-
- (./links.tex
-Cap\'{\i }tulo 6.
-
-Overfull \hbox (0.30957pt too wide) in paragraph at lines 9--11
-[]\T1/fxbj/m/n/10 http://www.re-ce-ding-hair-line.co.uk/fil-es/c1c3be2fda2b218e
-858029a4bde7e96c-3-9-
- []
-
-[16
-
-
-
-]) [17] (./base.gls [18
-
-
-
-]) [19]
-\openout2 = `licenca.aux'.
-
- (./licenca.tex
-Package epstopdf Info: Source file: <cc.eps>
-(epstopdf)                    date: 2009-12-05 00:16:47
-(epstopdf)                    size: 53807 bytes
-(epstopdf)             Output file: <cc-eps-converted-to.pdf>
-(epstopdf)                    date: 2009-12-05 00:18:30
-(epstopdf)                    size: 5533 bytes
-(epstopdf)             Command: <epstopdf --outfile=cc-eps-converted-to.pdf cc.
-eps>
-(epstopdf)             \includegraphics on input line 6.
-Package epstopdf Info: Output file is already uptodate.
-
-<cc-eps-converted-to.pdf, id=244, 305.14pt x 73.27374pt>
-File: cc-eps-converted-to.pdf Graphic file (type pdf)
-
-<use cc-eps-converted-to.pdf>
-LaTeX Font Info:    Try loading font information for T1+pga on input line 14.
-LaTeX Font Info:    No file T1pga.fd. on input line 14.
-
-
-LaTeX Font Warning: Font shape `T1/pga/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 14.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 14.
-) [20
-
- <./cc-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
- (./base.aux (./introducao.aux)
-(./filosofia.aux) (./tipografia.aux) (./recursos.aux) (./terminando.aux)
-(./links.aux) (./licenca.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
-Package rerunfilecheck Info: File `base.out' has not changed.
-(rerunfilecheck)             Checksum: E267DB723374F9DACEE90B995CE7E19F;1052.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \begin{avm}
+                 
+? 
+./recursos.tex:169: Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.169 \begin{avm}
+                 
+? 
+./recursos.tex:171: Misplaced alignment tab character &.
+l.171 category &
+                 \emph{noun phrase} \\
+? 
+./recursos.tex:171: Interruption.
+<to be read again> 
+                    
+l.171 category & 
+                 \emph{noun phrase} \\
+? 
+./recursos.tex:172: Missing $ inserted.
+<inserted text> 
+                $
+l.172 
+      
+? 
+./recursos.tex:172: Interruption.
+<to be read again> 
+                   \par 
+l.172 
+      
+? x
+ 
 Here is how much of TeX's memory you used:
- 22904 strings out of 493847
- 283488 string characters out of 3153979
- 509430 words of memory out of 3000000
- 25763 multiletter control sequences out of 15000+200000
- 219290 words of font info for 131 fonts, out of 3000000 for 9000
+ 22644 strings out of 493847
+ 280277 string characters out of 3153979
+ 505553 words of memory out of 3000000
+ 25555 multiletter control sequences out of 15000+200000
+ 216837 words of font info for 126 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 35i,14n,38p,1194b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
-st, replaced by a fixed one
+ 35i,14n,37p,1194b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:hifenizacao} has been referenced but does not e
+xist, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/tex
-mf-dist/fonts/enc/dvips/libertine/xb-8x.enc}{/usr/share/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/xl-8x.enc}</us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/fxbr.pfb>
-</usr/share/texmf-dist/fonts/type1/public/libertine/fxlb.pfb></usr/share/texmf-
-dist/fonts/type1/public/libertine/fxlbi.pfb></usr/share/texmf-dist/fonts/type1/
-public/libertine/fxlr.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/f
-xlri.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/
-share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dis
-t/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/tipa/tipa
-10.pfb>
-Output written on base.pdf (21 pages, 666753 bytes).
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:compilacao} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:irc} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:gnulinux} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:linguagem_marcacao} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf-dist/fonts/enc/dvips/libertine/xb-8x.enc}{/usr/share/texmf-di
+st/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/libertine/xl-8x.enc}</us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/liber
+tine/fxbr.pfb></usr/share/texmf-dist/fonts/type1/public/libertine/fxlb.pfb></us
+r/share/texmf-dist/fonts/type1/public/libertine/fxlbi.pfb></usr/share/texmf-dis
+t/fonts/type1/public/libertine/fxlr.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/libertine/fxlri.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0
+900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/tipa/tipa10.pfb>
+Output written on base.pdf (13 pages, 620371 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
